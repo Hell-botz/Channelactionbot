@@ -103,7 +103,7 @@ bot
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper").row()
         .text("Change Language", "setLang").row()
-        .url(ctx.t("updates"), "https://t.me/BotzHub"),
+        .url(ctx.t("updates"), "https://t.me/Cine_Paradise"),
       disable_web_page_preview: true,
     });
     await addUser(ctx.from.id);
@@ -115,7 +115,7 @@ bot.callbackQuery("cancelLocaleSetting", async (ctx) => {
     reply_markup: new InlineKeyboard()
       .text(ctx.t("usage-help"), "helper").row()
       .text("Change Language", "setLang").row()
-      .url(ctx.t("updates"), "https://t.me/BotzHub"),
+      .url(ctx.t("updates"), "https://t.me/Cine_Paradise"),
     disable_web_page_preview: true,
   });
 });
