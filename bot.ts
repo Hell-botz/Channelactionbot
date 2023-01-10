@@ -122,7 +122,7 @@ bot.callbackQuery("cancelLocaleSetting", async (ctx) => {
 bot.callbackQuery("helper", async (ctx) => {
   await ctx.editMessageText(
     ctx.t("help") +
-      "\n\n[Movie Request Group](t.me/cine_paradise0) | [Movie Updates](t.me/Cine_Paradise) | [Hell Botz] (t.me/hell_botz).",
+      "\n𝗝𝗼𝗶𝗻 ➠ @CineParadise_Links",
     {
       reply_markup: new InlineKeyboard().text("Main Menu 📭", "cancelLocaleSetting"),
       parse_mode: "HTML",
