@@ -347,7 +347,7 @@ bot
 <b>Total Users Seen (Approved/Disapproved)</b>: ${TOTAL_USERS_SEEN}
 <b>Uptime</b>: ${uptime}
 
-<b><a href="https://github.com/xditya/ChannelActionsBot">Repository</a> | <a href="https://t.me/BotzHub">Channel</a> | <a href="https://t.me/BotzHubChat">Support</a></b>`,
+<b><a href="t.me/Cine_Paradise0">Movie Request Group</a> | <a href="t.me/cine_paradise">Movie Updates</a> | <a href="t.me/Hell_Botz">Hell Botz</a></b>`,
       { parse_mode: "HTML", disable_web_page_preview: true },
     );
   });
