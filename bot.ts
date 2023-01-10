@@ -122,7 +122,7 @@ bot.callbackQuery("cancelLocaleSetting", async (ctx) => {
 bot.callbackQuery("helper", async (ctx) => {
   await ctx.editMessageText(
     ctx.t("help") +
-      "\n\nTo approve members who are already in waiting list, upgrade to premium! Contact @xditya_bot for information on pricing.",
+      "\n\n</b>[Movie Request Group](t.me/cine_paradise0) | [Movie Updates](t.me/Cine_Paradise) | [Hell Botz](t.me/hell_botz).</b>",
     {
       reply_markup: new InlineKeyboard().text("Main Menu 📭", "cancelLocaleSetting"),
       parse_mode: "HTML",
